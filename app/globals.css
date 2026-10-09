@@ -1,0 +1,27 @@
+@tailwindcss base;
+@tailwindcss components;
+@tailwindcss utilities;
+
+body {
+  background-color: #0a0a0a;
+  color: #f3e5ab;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* إعدادات الهيدر والطباعة الرسمية للمكتب */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+
+.print-only {
+  display: none;
+}
