@@ -1,0 +1,2 @@
+-- Optional development-only seed data.
+-- Keep real citizen records and production data out of GitHub.

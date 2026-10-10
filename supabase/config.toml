@@ -1,0 +1,14 @@
+# Supabase CLI project configuration
+project_id = "taher-office"
+
+[api]
+enabled = true
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+major_version = 15
+
+[studio]
+enabled = true
